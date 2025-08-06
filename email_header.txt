@@ -1,0 +1,17 @@
+Return-Path: <secure@natbank-finance.com>
+Received: from 123.45.67.89 (unknown [123.45.67.89])
+        by mail.natbank-finance.com with ESMTP id hj234h23
+        for <user@example.com>; Wed, 30 Jul 2025 07:32:00 -0500
+Received-SPF: FAIL (mail server does not designate 123.45.67.89 as a permitted sender)
+Authentication-Results: mx.google.com;
+       dkim=fail (signature did not verify);
+       spf=fail (google.com: domain of secure@natbank-finance.com does not designate 123.45.67.89 as permitted sender);
+       dmarc=fail (p=REJECT sp=REJECT) header.from=natbank-finance.com
+DKIM-Signature: v=1; a=rsa-sha256; d=natbank-finance.com; s=mail;
+    c=relaxed/simple; q=dns/txt; h=From:Subject:Date:To:Message-ID;
+    bh=fakehashvalue=; b=fakesignaturevalue
+From: "National Bank" <secure@natbank-finance.com>
+To: user@example.com
+Subject: Urgent Action Required: Account Verification Needed
+Date: Wed, 30 Jul 2025 07:32:00 -0500
+Message-ID: <ABCD1234EFGH5678@natbank-finance.com>

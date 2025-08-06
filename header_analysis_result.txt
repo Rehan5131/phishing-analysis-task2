@@ -1,0 +1,15 @@
+HEADER ANALYSIS RESULT
+
+SPF: FAIL — The sending IP (123.45.67.89) is not authorized to send emails on behalf of natbank-finance.com.
+DKIM: FAIL — The digital signature from the sending domain could not be verified.
+DMARC: FAIL — Policy for natbank-finance.com is to reject unauthenticated emails, and this one failed.
+
+Other Indicators:
+• Return-Path differs from visible sender.
+• Email was sent from an unknown/untrusted IP.
+• Urgent subject line and action request.
+• Link inside body leads to a non-bank domain (secure-bank-login.com).
+• Attempts to mimic real banking security language.
+
+Conclusion:
+This email exhibits multiple signs of phishing and should not be trusted.

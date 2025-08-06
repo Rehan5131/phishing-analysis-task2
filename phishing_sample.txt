@@ -1,0 +1,17 @@
+Subject: Urgent Action Required: Account Verification Needed
+
+Dear User,
+
+We detected unusual activity in your bank account and your access has been temporarily restricted.
+
+To restore access, please verify your account information by clicking the link below:
+
+👉 [Verify Now](http://secure-bank-login.com/account/verify)
+
+Failure to complete verification within 24 hours will result in permanent account suspension.
+
+Sincerely,  
+Security Team  
+National Bank of Finance
+
+© 2025 National Bank of Finance. All rights reserved.
